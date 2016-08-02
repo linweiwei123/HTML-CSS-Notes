@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style type="text/css">
+              table{
+                  width: 500px;
+                  display: inline-block;
+              }
+              th,td{
+                  background-color:bisque;
+                  padding: 10px;
+                  border: 2px solid #000000;
+              }
+              .one{
+                  border-spacing: 5px;
+              }
+              .two{
+                  border-collapse: collapse;
+              }
+              input{
+                  background-color: bisque;
+                  border:1px solid #bdbdbd;
+                  display: block;
+                  padding: 10px 10px 10px 40px;
+                  margin-bottom: 10px;
+                  border-radius: 5px;
+                  background-position: 8px 8px;
+                  background-repeat: no-repeat;
+              }
+              input.qq{
+                  background-image: url(images/tencent_minihd_qq_24px_1186942_easyicon.net.png);
+              }
+              input.alipay{
+                  background-image: url(images/alipay_24px_1186722_easyicon.net.png)
+              }
+               input.submit:hover{
+                  color: #333333;
+                  border: 1px solid #a4a4a4;
+                  border-top: 2px solid #b2b2b2;
+                  background-color: #a0dbc4;
+                  background: -webkit-gradient(linear, left top,left bottom, from(#a8cfce), to(#beeae9));
+                    background:
+                    -moz-linear-gradient(top, #a8cfce, #beeae9);
+                    background:
+                    -o-linear-gradient(top, #a8cfce, #beeae9);
+                    background:
+                    -ms-linear-gradient(top, #a8cfce, #beeae9);
+                  
+              }
+              input:focus{
+                  border-color:chartreuse
+              }
+              input.submit{
+                  font-size: 150%;
+                  color: #444444;
+                  text-shadow: 0px 2px 2px #ffffff;
+                  border-bottom: 2px solid #b2b2b2;
+                  background-color: #b9e4e3;
+                 background: -webkit-gradient(linear, left top,
+                left bottom, from(#beeae9), to(#a8cfce));
+                background:
+                -moz-linear-gradient(top, #beeae9, #a8cfce);
+                background:
+                -o-linear-gradient(top, #beeae9, #a8cfce);
+                background:
+                -ms-linear-gradient(top, #beeae9, #a8cfce);
+              }
+              fieldset{
+                  width: 350px;
+                  border: 1px solid #dcdcdc;
+                  border-radius: 10px;
+                  padding: 20px;
+                  text-align: right;
+              }
+              legend{
+                  background-color: #efefef;
+                  border: 1px solid #dcdcdc;
+                  border-radius: 10px;
+                  padding: 10px 20px;
+                  text-align: left;
+                  text-transform: uppercase;
+              }
+              .spacing{
+                  letter-spacing: 0.15em;
+                  text-transform: uppercase;
+                  word-spacing: 0.5em;
+              }
+	</style>
+
+</head>
+
+<body>
+        <table class="one">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>game</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>         
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>        
+        <table class="two">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>game</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>         
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+        <input type="text" class="email"/>
+        <input type="text" class="qq"/>
+        <input type="text" class="alipay"/>
+        <input type="text" class="submit" id="submit" value="Register">
+        
+        <fieldset>
+            <legend>newsletter</legend>
+            <input type="text" class="email"/>
+            <input type="text" class="qq"/>
+        </fieldset>
+        
+        <p class="spacing">newsletter i love game boy</p>
+</body>
+
+</html>

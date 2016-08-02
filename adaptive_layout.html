@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style type="text/css">
+              body{
+                  background-color: #2980B9;
+                  width: 100%;
+                  color: #fff;
+                  text-align: center;
+                  font-family: Helvetica;
+              }
+              
+              .wrapper{
+                  width: 960px;
+                  margin: 10px auto;
+                  overflow: auto;
+              }
+              header{
+                  border: 1px solid #fff;
+                  border-radius: 3px;
+                  padding: 20px;
+                  margin-bottom: 20px;
+                  box-sizing: border-box;
+              }
+              nav{
+                  width: 200px;
+                  padding: 200px 0px;
+                  border: 1px solid #fff;
+                  border-radius: 3px;
+                  float: left;
+                  box-sizing: border-box;
+                  margin-right: 10px;
+                  margin-bottom: 20px;
+              }
+              section{
+                  width: 750px;
+                  padding: 200px 0px;
+                  border: 1px solid #fff;
+                  border-radius: 3px;
+                  float: left;
+                  box-sizing: border-box;
+              }
+             @media(min-width:800px){
+              .wrapper {
+                width: 640px;
+              }
+
+              header {
+                width: 640px;
+              }
+
+              nav {
+                width: 133px;
+                margin-right: 10px;
+              }
+
+              section {
+                width: 497px;
+              }
+          }
+              @media(min-width:1000px){
+                  .wrapper{
+                      width: 960px;
+                  }
+                  header{
+                      width: 960px;
+                  }
+                  nav{
+                      width: 200px;
+                  }
+                  section{
+                      width: 750px;
+                  }
+              }
+                
+             @media (max-width:760px){
+                  .wrapper{
+                      width: 400px;
+                  }
+                    header{
+                      width: 400px;
+                  }
+                  nav{
+                      width: 400px;
+                  }
+                  section{
+                      width: 400px;
+                  }
+                  nav,section{
+                      float: none;
+                  }
+              }
+	</style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>Adaptive Layout</h1>
+        <header>HEADER</header>
+        <nav>NAV</nav>
+        <section>SECTION</section>
+    </div>
+
+</body>
+
+</html>

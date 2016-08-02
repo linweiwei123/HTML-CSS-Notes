@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Response Layout Advance</title>
+
+	<!--  -->
+
+	<style type="text/css">
+              body{
+                  background-color: #FFFFFF;
+                  margin: 0 auto;
+                  width: 100%;
+                  height: auto;
+                  font-family: "Gotham Rounded A", "Gotham Rounded B", "Helvetica Neue",    Helvetica, Arial, sans-serif, "Helvetica Neue", "Helvetica",         "Roboto", "Arial", sans-serif;
+                  font-size: 1.15em;
+                  color: #576366;
+                  text-align: left;
+              }
+              
+              .wrapper{
+                  margin: 10px;
+                 /* border:1px solid #3879D9;
+                  border-radius: 3px;*/
+              }
+              header{
+                  padding: 20px;
+                  background-color: cornflowerblue;
+                  color: #fff;
+                  font-size: 1.25em;
+              }
+              .content{
+                  width: 100%;
+                  margin-bottom: 10px;
+                  overflow: auto;
+              }
+              .content menu{
+                  width: 19%;
+                  padding: 200px 0px;
+                  margin-top: 10px;
+                  margin-right: 1%;
+                  background-color: aquamarine;
+                  box-sizing: border-box;
+                  text-align: center;
+                  float: left;
+    
+              }
+              .content article{
+                  width: 59%;
+                  padding: 450px 0px;
+                  margin-top: 10px;
+                  margin-right: 1%;
+                  background-color: burlywood;
+                  float: left;
+                  text-align: center;
+              }
+              .content aside{
+                  width: 20%;
+                  padding: 300px 0px;
+                  margin-top: 10px;
+                  background-color: cadetblue;
+                  float: left;
+                  text-align: center;
+              }
+              footer{
+                  padding: 20px 0px;
+                  background-color: darkgray;
+                  clear: both;
+                  text-align: center;
+                  color: #fff;
+              }
+             @media(max-width: 959px) and (min-width: 600px){
+                  .content menu{
+                      width: 29%;
+                  }
+                  .content article{
+                      width: 70%;
+                      margin-right: 0px;
+                  }
+                  .content aside{
+                      width: 100%;
+                      clear: both;
+                  }
+              }
+            @media(max-width:599px){
+                  .content menu{
+                    width: 100%;
+                    margin-right: 0%;
+                  }
+                  .content article{
+                      width: 100%;
+                      clear: both;
+                  }
+                  .content aside{
+                      width: 100%;
+                  }
+              }
+	</style>
+
+</head>
+
+<body>
+     <div class="wrapper">
+         <header>Response Layout Advance</header>
+         <div  class="content">
+             <menu>MENU</menu>
+             <article>ARTICLE</article>
+             <aside>ASIDE</aside>
+         </div>
+         <footer>Footer</footer>
+     </div>
+</body>
+
+</html>

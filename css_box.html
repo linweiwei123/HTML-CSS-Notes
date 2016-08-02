@@ -1,0 +1,204 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style type="text/css">
+              body{
+                  min-width: 800px;
+              }
+              .outer{
+                  background-color: brown;
+                  height: 500px;
+                  width: 500px;
+              }
+              .inter{
+                  height: 75%;
+                  width: 75%;
+                  background-color: bisque
+              }
+              .block{
+                  padding: 20px;
+                  margin-top: 10px;
+                  border: 2px solid brown
+              }
+              
+              .description{
+                  min-width: 600px;
+                  max-width: 800px;
+              }
+              
+              .maxheight{
+                  min-height: 20px;
+                  max-height: 80px;
+                  border: 1px solid brown;
+                  overflow: scroll
+              }
+              .box{
+                  margin: 10px;
+                  border: 50px solid brown;
+                  padding: 50px;
+                  height: 200px;
+                  width: 400px;
+                  background-color: antiquewhite;
+                  box-sizing: content-box;
+              }
+              .p-margin{
+                  margin: 10px;
+                  display: inline-block;
+              }
+              .one{
+                  border-style: solid
+              }
+              .two{
+                  border-style: dotted
+              }
+              .three{
+                  border-style: dashed
+              }
+              .four{
+                  border-style: double
+              }
+              .five{
+                  border-style: groove
+              }
+              .six{
+                  border-style: ridge
+              }
+              .seven{
+                  border-style: inset
+              }
+              .eight{
+                  border-style: outset;
+              }
+              .box-center{
+                  margin: 10px auto 10px auto;
+                  height: 200px;
+                  width: 200px;
+                  border: 2px solid blue;
+              }
+              .span{
+                  background-color: cadetblue;
+                  height: 200px;
+                  padding: 20px;
+              }
+              li {
+                    display: inline;
+                    margin-right: 10px;
+              }
+            li.coming-soon {
+                    visibility: hidden;
+              }
+              .box-shadow{
+                  margin: auto;
+                  margin-bottom: 100px;
+                  background-color: antiquewhite;
+                  height: 200px;
+                  width: 200px;
+                  border-radius: 5px 10px 5px 10px;
+                  -webkit-box-shadow: 10px 10px 10px #777777;
+                  -moz-box-shadow: 10px 10px 10px #777777;
+                  -ms-box-shadow: 10px 10px 10px #777777;
+                  box-shadow: 10px 10px 10px #777777;
+              }
+              .shape{
+                  display: inline-block;
+                  height: 150px;
+                  width: 150px;
+                  border: 10px solid gray;
+                  box-sizing: border-box;
+                  text-align: center;
+                  vertical-align:text-bottom;
+              }
+              .shape-div{
+                  margin: auto;
+                  width: 500px;
+                  
+              }
+              .shape-div span{
+                  color: brown;
+              }
+              .shape-one{
+                 border-top-left-radius: 80px 50px; 
+                 
+                  
+              }
+              .shape-two{
+                  border-radius: 1em 4em 1em 4em/4em 1em 4em 1em;
+              }
+              .shape-three{
+                  border-radius: 150px;
+                  
+              }
+	</style>
+
+</head>
+
+<body>
+    
+    <div class="outer">
+        <p class="inter">我长大了，有时候却还有一颗童年的心，对于过去的东西，比如game boy，我却不好意思见人</p>
+    </div>
+
+   <div class="block">
+    <table>
+        <tr>
+            <td><img src="images/xinsan.jpg" alt=""></td>
+            <td class="description">我长大了，有时候却还有一颗童年的心，对于过去的东西，比如game boy，我却不好意思见人。我害怕被别人看到我还在玩过去已经被淘汰的游戏，
+            但我实际上是个怀旧的人，在中国生活就是要活在别人的世界里，害怕别人的流言蜚语</td>
+            <td>Game Boy</td>
+        </tr>
+    </table>
+    </div>
+    
+    <p class="maxheight">If the box is not big enough to
+hold the content, and the content
+expands outside the box it can
+look very messy. To control
+what happens when there is not
+enough space for the content of
+a box, you can use the overflow
+property, which is discussed on
+the next page.</p>
+
+    <div class="box"> this is the box content</div>
+    
+    <p class="p-margin one">this is solid type</p>
+    <p class="p-margin two">this is dotted type</p>
+    <p class="p-margin three">this is dashed type</p>
+    <p class="p-margin four">this is double type</p>
+    <p class="p-margin five">this is groove type</p>
+    <p class="p-margin six">this is ridge type</p>
+    <p class="p-margin seven">this is inset type</p>
+    <p class="p-margin eight">this is outset type</p>
+    
+    <p class="box-center">the box</p>
+    
+    <a href="#" class="span">百度</a>
+    <a href="#" class="span">淘宝</a>
+    
+    <ul>
+    <li>Home</li>
+    <li>Products</li>
+    <li class="coming-soon">Services</li>
+    <li>About</li>
+    <li>Contact</li>
+    </ul>
+    
+    <div class="box-shadow">
+        
+    </div>
+    
+    <div class="shape-div">
+        <div class="shape shape-one"><span>game boy</span></div>
+        <div class="shape shape-two"><span>game boy</span></div>
+        <div class="shape shape-three"><span>game boy</span></div>
+    </div>
+</body>
+
+</html>
